@@ -9,7 +9,6 @@ function ContentSection() {
                     <img src="horasiguais.jpg" className="doze1"/>
                     <img src="anosluz.jpg" className="doze1"/>
                     <img src="autotune.jpg" className="doze1"/>
-                    <img src="vampiro.jpg" className="doze1"/>
                 </div>
                 <div>
                     <a href="#" className="nomes">Lugar Distante</a>
@@ -17,7 +16,6 @@ function ContentSection() {
                     <a href="#" className="nomes5">Horas Iguais</a>
                     <a href="#" className="nomes2">Anos Luz</a>
                     <a href="#" className="nomes3">A morte do Autotune</a>
-                    <a href="#" className="nomes4">Vampiro</a>
                 </div>
             </div>
         </section>
