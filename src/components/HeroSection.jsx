@@ -1,12 +1,19 @@
+import capa from "../assets/333.jpg"
+
 function HeroSection() {
     return (
-        <>
-            <div className="main">
-                <img src="30praum.jpg" className="praum"></img>
-                <div className="intro">Ouça os maiores hits de Matuê, Teto, WIU e Brandão085 gratuitamente e em qualquer horário!</div>
+        <section className="section">
+            <div className="hero-section">
+                <div className="atual">
+                    <img src={capa} className="capa"/>
+                    <div>
+                        <p className="matue">1993 - Matuê</p>
+                        <p className="album">Escute 333 no site da 30!</p>
+                </div>
+                </div>
             </div>
 
-        </>
+        </section>
     )
 }
 
