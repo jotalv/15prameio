@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+}
+
 .logo {
-  width: 70px;
+  width: 50px;
 }
 
 b {
@@ -24,5 +30,162 @@ b {
 .main {
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,27,70,1) 20%, rgba(0,212,255,1) 100%);
+  height: 100vh;
+  margin-bottom: 0;
+}
 
+.intro {
+  margin: auto;
+  width: 25%;
+  display: flex;
+  color: white;
+  transform: translateY(-120%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.debug {
+  border: 1px solid black;
+}
+
+.debug-red {
+  border: 1px solid red;
+}
+
+.debug-green {
+  border: 1px solid green;
+}
+
+.debug-blue {
+  border: 1px solid blue;
+}
+
+.debug-transparent {
+  border: 1px solid transparent;
+  border-top: 5px solid rgba(6, 37, 80, 1);
+  border-bottom: 5px solid rgba(6, 37, 80, 1);
+}
+
+header {
+  background-color:  rgb(2,0,36);
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itens-menu {
+  background-color: aliceblue;
+  padding: 0.5rem;
+  margin: 0.45rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: rgb(2,0,36);
+}
+
+.relogio {
+  background-color: rgba(0,212,255,1);
+  border-radius: 1.5rem;
+}
+
+.itens-menu:hover {
+  background-color: rgba(0,212,255,1);
+}
+
+.content-section {
+  height: 60vh;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,27,70,1) 20%, rgba(0,212,255,1) 100%);
+}
+
+.mais-tocadas {
+  color: white;
+  width: 15%;
+  text-align: start;
+  padding-left: 1rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.mscs {
+  height: 15rem;
+}
+
+.doze {
+  width: 12rem;
+  margin-left: 10%;
+}
+
+.doze1 {
+  width: 12rem;
+  margin-left: 3%;
+}
+
+.nomes {
+  color: white;
+  width: 15%;
+  text-align: start;
+  padding: 1rem; 
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.nomes1 {
+  color: white;
+  width: 15%;
+  text-align: center;
+  padding: 1rem; 
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 6.5%;
+}
+
+.nomes2 {
+  color: white;
+  width: 15%;
+  text-align: center;
+  padding: 1rem; 
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 5.6%;
+}
+
+.nomes3 {
+  color: white;
+  width: 15%;
+  text-align: center;
+  padding: 1rem; 
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 3.6%;
+}
+
+.nomes4 {
+  color: white;
+  width: 15%;
+  text-align: center;
+  padding: 1rem; 
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 3.7%;
+}
+
+.nomes5 {
+  color: white;
+  width: 15%;
+  text-align: center;
+  padding: 1rem; 
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 7%;
 }
